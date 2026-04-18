@@ -7,7 +7,7 @@ Hands-on labs, notes, and artifacts from **Akhilesh Mishra's Living DevOps AWS B
 | Day | Topic | Link |
 |---|---|---|
 | 01 | Linux intro & first EC2 | [day-01-linux-intro](./day-01-linux-intro) |
-
+| 02 | Linux performance & process management | [day-02-linux-perf](./day-02-linux-perf) |
 ## Stack
 
 - **Cloud:** AWS (ap-south-1 / Mumbai)
