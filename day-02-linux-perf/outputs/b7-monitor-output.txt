@@ -1,0 +1,39 @@
+==============================
+ System Monitor Report
+ Generated: Sat Apr 18 17:31:26 UTC 2026
+ Host: ip-172-31-39-9.ap-south-1.compute.internal
+==============================
+
+--- System Load ---
+ 17:31:26 up  6:48,  4 users,  load average: 0.00, 0.00, 0.00
+
+--- CPU Cores ---
+Cores: 2
+
+--- Memory Usage ---
+Mem:           916Mi       182Mi       408Mi       0.0Ki       326Mi       559Mi
+Swap:             0B          0B          0B
+
+--- Top 5 CPU Processes ---
+1 /usr/lib/systemd/systemd CPU:0.0% MEM:1.8%
+2 [kthreadd] CPU:0.0% MEM:0.0%
+3 [rcu_gp] CPU:0.0% MEM:0.0%
+4 [rcu_par_gp] CPU:0.0% MEM:0.0%
+5 [slub_flushwq] CPU:0.0% MEM:0.0%
+
+--- Top 5 Memory Processes ---
+1583 /usr/bin/amazon-ssm-agent CPU:0.0% MEM:1.9%
+1 /usr/lib/systemd/systemd CPU:0.0% MEM:1.8%
+837 /usr/lib/systemd/systemd-journald CPU:0.0% MEM:1.6%
+1277 /usr/lib/systemd/systemd-resolved CPU:0.0% MEM:1.5%
+1922 /usr/lib/systemd/systemd CPU:0.0% MEM:1.4%
+
+--- Disk Usage ---
+Filesystem        Size  Used Avail Use% Mounted on
+/dev/nvme0n1p1    8.0G  1.7G  6.3G  22% /
+/dev/nvme0n1p128   10M  1.3M  8.7M  13% /boot/efi
+
+--- I/O Wait ---
+IOWait: 0.02%
+
+==============================

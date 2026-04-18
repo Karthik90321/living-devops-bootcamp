@@ -1,0 +1,3 @@
+=== Step 1: Overall CPU state ===
+ 23:22:08 up 11:26,  1 user,  load average: 0.10, 0.10, 0.09
+

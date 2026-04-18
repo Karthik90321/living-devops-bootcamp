@@ -1,0 +1,24 @@
+=== Memory Investigation ===
+Date: Sat Apr 18 18:06:36 UTC 2026
+
+--- Overall memory ---
+               total        used        free      shared  buff/cache   available
+Mem:           916Mi       172Mi       532Mi       0.0Ki       211Mi       590Mi
+Swap:             0B          0B          0B
+
+--- Top memory consumers ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        1583  0.0  1.7 1242016 16352 ?       Ssl  10:43   0:01 /usr/bin/amazon-ssm-agent
+root         837  0.0  1.7  54276 16020 ?        Ss   10:43   0:01 /usr/lib/systemd/systemd-journald
+root           1  0.0  1.7 173392 16004 ?        Ss   10:43   0:02 /usr/lib/systemd/systemd --switched-root --system --deserialize=32
+systemd+    1277  0.0  1.4  23508 13272 ?        Ss   10:43   0:00 /usr/lib/systemd/systemd-resolved
+ec2-user    1922  0.0  1.2  22808 12032 ?        Ss   10:51   0:00 /usr/lib/systemd/systemd --user
+
+--- Memory map of suspect PID  ---
+--- Memory map of suspect PID  ---
+--- Memory map of suspect PID 40696 ---
+00007fff20d6f000      16       0       0 r----   [ anon ]
+00007fff20d73000       8       4       0 r-x--   [ anon ]
+ffffffffff600000       4       0       0 --x--   [ anon ]
+---------------- ------- ------- ------- 
+total kB           61200    6964    2660

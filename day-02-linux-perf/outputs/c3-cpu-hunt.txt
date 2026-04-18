@@ -1,0 +1,8 @@
+Exercise answers:
+Q1 - PID: 40860
+Q2 - CPU usage: 71.0%
+40860 (process ID) old priority 0, new priority 10
+Q4 - After renice:
+    PID  NI CMD
+  40860  10 stress-ng-cpu [run]
+Q5 - Killed PID 40860

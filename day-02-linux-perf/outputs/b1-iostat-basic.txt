@@ -1,0 +1,9 @@
+Linux 6.1.166-197.305.amzn2023.x86_64 (ip-172-31-39-9.ap-south-1.compute.internal) 	04/18/26 	_x86_64_	(2 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.16    0.01    0.07    0.02    0.01   99.73
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0n1           1.29         9.62        52.22         0.00     213595    1159904          0
+
+

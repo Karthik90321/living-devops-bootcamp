@@ -1,0 +1,26 @@
+=== Resource Hogs Report ===
+Generated: Sat Apr 18 18:21:49 UTC 2026
+
+--- Top 5 CPU Hogs ---
+root           1  0.0  1.7 173392 16004 ?        Ss   10:43   0:02 /usr/lib/systemd/systemd --switched-root --system --deserialize=32
+root           2  0.0  0.0      0     0 ?        S    10:43   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   10:43   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   10:43   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   10:43   0:00 [slub_flushwq]
+
+--- Top 5 Memory Hogs ---
+root        1583  0.0  1.7 1242016 16352 ?       Ssl  10:43   0:01 /usr/bin/amazon-ssm-agent
+root         837  0.0  1.7  54276 16196 ?        Ss   10:43   0:01 /usr/lib/systemd/systemd-journald
+root           1  0.0  1.7 173392 16004 ?        Ss   10:43   0:02 /usr/lib/systemd/systemd --switched-root --system --deserialize=32
+systemd+    1277  0.0  1.4  23508 13272 ?        Ss   10:43   0:00 /usr/lib/systemd/systemd-resolved
+ec2-user    1922  0.0  1.2  22808 12032 ?        Ss   10:51   0:00 /usr/lib/systemd/systemd --user
+
+--- Processes in D state (stuck in I/O wait) ---
+None
+
+--- Zombie Processes ---
+None
+
+--- Processes with high nice value (deprioritised) ---
+    PID  NI CMD
+     34  19 [khugepaged]
