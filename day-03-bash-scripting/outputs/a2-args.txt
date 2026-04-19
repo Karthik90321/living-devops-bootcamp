@@ -1,0 +1,5 @@
+Script name ($0): ./a2-args.sh
+First arg ($1): karthik
+Second arg ($2): devops
+Total arg count ($#): 3
+All args ($@): karthik devops bootcamp

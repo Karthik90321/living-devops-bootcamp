@@ -1,0 +1,11 @@
+=================================
+ IP Threat Scan
+ IP list:   sample-data/block_ip.txt
+ Log file:  sample-data/access.log
+ Threshold: 10 hits
+=================================
+[BLOCK] 192.168.1.10 — 11 hits (exceeds 10)
+[WATCH] 203.0.113.7 — 3 hits (under threshold)
+[OK]    198.51.100.99 — no hits
+=================================
+Scan complete.

@@ -1,0 +1,20 @@
+{
+    echo "=== TEST 1: No argument ==="
+    ./scripts/log-rotate.sh
+    echo "Exit: $?"
+    echo ""
+    echo "=== TEST 2: Missing file ==="
+    ./scripts/log-rotate.sh /tmp/no-such-file
+    echo "Exit: $?"
+    echo ""
+    echo "=== TEST 3: Successful rotation ==="
+    cp sample-data/access.log.original sample-data/access.log
+    ./scripts/log-rotate.sh sample-data/access.log
+    echo "Exit: $?"
+    echo ""
+    echo "=== State after rotation ==="
+    ls -la sample-data/
+} > outputs/b1-log-rotate-runs.txt 2>&1
+
+
+
