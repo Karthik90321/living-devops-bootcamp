@@ -10,6 +10,7 @@ Hands-on labs, notes, and artifacts from **Akhilesh Mishra's Living DevOps AWS B
 | 02 | Linux performance & process management | [day-02-linux-perf](./day-02-linux-perf) |
 | 03 | Bash scripting & real-world scripts | [day-03-bash-scripting](./day-03-bash-scripting) |
 | 04 | AWS Networking — VPC, bastion, NAT Gateway | [day-04-aws-networking](./day-04-aws-networking) |
+| 05 | Concepts: DNS, HTTPS, Route 53, load balancers | [day-05-concepts](./day-05-concepts) |
 ## Stack
 
 - **Cloud:** AWS (ap-south-1 / Mumbai)
