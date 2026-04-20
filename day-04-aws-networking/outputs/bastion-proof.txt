@@ -1,0 +1,9 @@
+=== Bastion identity ===
+ec2-user
+ip-10-0-1-166.ap-south-1.compute.internal
+
+=== Public IP (from outside) ===
+13.201.127.141
+
+=== Internet reachable ===
+HTTP to google.com: 301

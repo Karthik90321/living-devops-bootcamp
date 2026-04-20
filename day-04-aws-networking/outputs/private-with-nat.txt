@@ -1,0 +1,11 @@
+=== Private instance identity ===
+ip-10-0-2-107.ap-south-1.compute.internal
+
+=== Internet reachability AFTER NAT ===
+HTTP to google.com: 301
+
+=== yum update output ===
+Last metadata expiration check: 0:00:49 ago on Sun Apr 19 18:56:03 2026.
+Dependencies resolved.
+Nothing to do.
+Complete!

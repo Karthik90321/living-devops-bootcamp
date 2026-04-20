@@ -1,0 +1,8 @@
+=== Private instance identity ===
+hp
+DESKTOP-S0H9TKT
+    inet 172.23.159.81/20 brd 172.23.159.255 scope global eth0
+    inet6 fe80::215:5dff:fefa:4b5b/64 scope link 
+
+=== Internet reachability test (expected to fail) ===
+HTTP to google.com: 301
