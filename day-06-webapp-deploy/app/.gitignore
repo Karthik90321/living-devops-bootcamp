@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# macOS/editor cruft
+.DS_Store
+.vscode/
+.idea/

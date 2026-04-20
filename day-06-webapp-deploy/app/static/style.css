@@ -1,0 +1,45 @@
+/* Clean minimal style for the portfolio card */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #1f2d3d;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 48px;
+    max-width: 640px;
+    width: 100%;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+}
+
+header { margin-bottom: 32px; border-bottom: 2px solid #e8ecef; padding-bottom: 24px; }
+h1 { font-size: 2.4em; color: #1e3c72; margin-bottom: 8px; }
+.tagline { font-size: 1.15em; color: #4a5568; font-weight: 500; }
+.location { color: #718096; margin-top: 6px; }
+
+section { margin-bottom: 28px; }
+h2 { font-size: 1.25em; color: #1e3c72; margin-bottom: 12px; }
+p { line-height: 1.7; color: #2d3748; }
+
+ul { list-style: none; }
+li {
+    padding: 8px 14px;
+    background: #f7fafc;
+    border-left: 3px solid #2a5298;
+    margin-bottom: 6px;
+    border-radius: 4px;
+}
+
+footer { margin-top: 32px; padding-top: 24px; border-top: 2px solid #e8ecef; }
+footer a { color: #2a5298; font-weight: 600; text-decoration: none; }
+footer a:hover { text-decoration: underline; }

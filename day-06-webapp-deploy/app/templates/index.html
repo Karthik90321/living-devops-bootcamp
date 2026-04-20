@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ name }} — DevOps Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="card">
+        <header>
+            <h1>{{ name }}</h1>
+            <p class="tagline">{{ tagline }}</p>
+            <p class="location">📍 {{ location }}</p>
+        </header>
+
+        <section>
+            <h2>About</h2>
+            <p>
+                I'm currently in the <strong>{{ bootcamp }}</strong>,
+                transitioning from application support into DevOps / SRE.
+                This very site is part of my coursework — deployed on AWS
+                EC2 with Nginx in front of a Flask + Gunicorn backend.
+            </p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                {% for skill in skills %}
+                <li>{{ skill }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+
+        <section>
+            <h2>Currently Learning</h2>
+            <ul>
+                {% for item in currently_learning %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+
+        <footer>
+            <a href="{{ github }}" target="_blank" rel="noopener">
+                → See all my bootcamp work on GitHub
+            </a>
+        </footer>
+    </main>
+</body>
+</html>
