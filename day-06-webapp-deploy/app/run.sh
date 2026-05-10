@@ -19,3 +19,4 @@ pip install --quiet -r requirements.txt
 
 echo "Starting Gunicorn on port 8000 with 4 workers..."
 exec gunicorn --workers 4 --bind 0.0.0.0:8000 app:app
+- Local smoke test passed. Flask on :8000 returns my page and /health returns ok.
